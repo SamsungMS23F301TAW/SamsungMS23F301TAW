@@ -5,20 +5,20 @@
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="typeclip">
-      <rect x="217.2" y="31.5" width="193.2" height="52.9">
+      <rect x="175.8" y="31.5" width="276.0" height="52.9">
         <animate attributeName="width" dur="5.0s" repeatCount="indefinite"
-          calcMode="discrete" keyTimes="0.0000;0.0700;0.1200;0.1700;0.2200;0.2700;0.3200;0.3700;0.4200;0.9000;1.0000" values="0.0;0.0;27.6;55.2;82.8;110.4;138.0;165.6;193.2;193.2;0.0"/>
+          calcMode="discrete" keyTimes="0.0000;0.0700;0.1050;0.1400;0.1750;0.2100;0.2450;0.2800;0.3150;0.3500;0.3850;0.4200;0.9000;1.0000" values="0.0;0.0;27.6;55.2;82.8;110.4;138.0;165.6;193.2;220.8;248.4;276.0;276.0;0.0"/>
       </rect>
     </clipPath>
   </defs>
   <rect width="600" height="120" rx="14" fill="#0d1117"/>
-  <text x="162.0" y="76.1" font-size="46px" fill="#2ea043" font-weight="600">> </text>
+  <text x="120.6" y="76.1" font-size="46px" fill="#2ea043" font-weight="600">> </text>
   <g filter="url(#glow)" clip-path="url(#typeclip)">
-    <text x="217.2" y="76.1" font-size="46px" fill="#7ee787" font-weight="700">Welcome</text>
+    <text x="175.8" y="76.1" font-size="46px" fill="#7ee787" font-weight="700">Welcome :)</text>
   </g>
-  <rect y="31.5" width="24.8" height="52.9" fill="#7ee787" x="410.4">
+  <rect y="31.5" width="24.8" height="52.9" fill="#7ee787" x="451.8">
     <animate attributeName="x" dur="5.0s" repeatCount="indefinite" calcMode="discrete"
-      keyTimes="0.0000;0.0700;0.1200;0.1700;0.2200;0.2700;0.3200;0.3700;0.4200;0.9000;1.0000" values="217.2;217.2;244.8;272.4;300.0;327.6;355.2;382.8;410.4;410.4;217.2"/>
+      keyTimes="0.0000;0.0700;0.1050;0.1400;0.1750;0.2100;0.2450;0.2800;0.3150;0.3500;0.3850;0.4200;0.9000;1.0000" values="175.8;175.8;203.4;231.0;258.6;286.2;313.8;341.4;369.0;396.6;424.2;451.8;451.8;175.8"/>
     <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete"
       keyTimes="0;0.5" values="1;0"/>
   </rect>
