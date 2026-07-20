@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="typeclip">
+      <rect x="217.2" y="31.5" width="193.2" height="52.9">
+        <animate attributeName="width" dur="5.0s" repeatCount="indefinite"
+          calcMode="discrete" keyTimes="0.0000;0.0700;0.1200;0.1700;0.2200;0.2700;0.3200;0.3700;0.4200;0.9000;1.0000" values="0.0;0.0;27.6;55.2;82.8;110.4;138.0;165.6;193.2;193.2;0.0"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect width="600" height="120" rx="14" fill="#0d1117"/>
+  <text x="162.0" y="76.1" font-size="46px" fill="#2ea043" font-weight="600">> </text>
+  <g filter="url(#glow)" clip-path="url(#typeclip)">
+    <text x="217.2" y="76.1" font-size="46px" fill="#7ee787" font-weight="700">Welcome</text>
+  </g>
+  <rect y="31.5" width="24.8" height="52.9" fill="#7ee787" x="410.4">
+    <animate attributeName="x" dur="5.0s" repeatCount="indefinite" calcMode="discrete"
+      keyTimes="0.0000;0.0700;0.1200;0.1700;0.2200;0.2700;0.3200;0.3700;0.4200;0.9000;1.0000" values="217.2;217.2;244.8;272.4;300.0;327.6;355.2;382.8;410.4;410.4;217.2"/>
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete"
+      keyTimes="0;0.5" values="1;0"/>
+  </rect>
+</svg>
